@@ -79,6 +79,7 @@ resource "aws_route_table_association" "rt_pub_sn_priv_az2" {
   route_table_id = aws_route_table.rt_priv.id
 }
 
+
 # RESOURCE: SECURITY GROUPS
 
 resource "aws_security_group" "vpc_sg_pub" {
