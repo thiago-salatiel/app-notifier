@@ -15,7 +15,7 @@ terraform {
   #   key            = "terraform.tfstate"
   #   dynamodb_table = "tf-notifier-state-v1"
   #   region         = "us-east-1"
-  }
+  # }
 
 }
 
